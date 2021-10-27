@@ -1,0 +1,35 @@
+@import "font.css";
+
+:root {
+  --background-color: "#fff";
+  --primary: "#f3f3f3";
+  --secondary: "#333333";
+}
+
+/*global reset*/
+/*minireset.css github.com/jgthms/minireset.css */
+*,
+*::before,
+*::after,
+html {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Nunito Sans,sans-serif";
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
